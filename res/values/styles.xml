@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FullHeightDialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="BrowserMenuButton">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/urlBarText</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BrowserCheckbox">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/urlBarText</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:paddingLeft">40.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

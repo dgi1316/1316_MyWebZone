@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: My+Web+Zone.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+packageInfo:
+  cur_package: com.wMyWebZone
+  orig_package: com.wMyWebZone
+compressionType: false

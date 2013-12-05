@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tagsContainerBackground">#ffffffff</color>
+    <color name="deactiveTabText">#ffffffff</color>
+    <color name="activeTabText">#ff101010</color>
+    <color name="deactiveTabBackgroundStart">#ff000000</color>
+    <color name="deactiveTabBackgroundEnd">#ff000000</color>
+    <color name="activeTabBackgroundStart">#ffe3e3e3</color>
+    <color name="activeTabBackgroundEnd">#ffe3e3e3</color>
+    <color name="contentsContainerBackgroundStart">#ffcfe4a5</color>
+    <color name="contentsContainerBackgroundEnd">#ff8eca1a</color>
+    <color name="noContentText">#ff000000</color>
+    <color name="badgeColorStart">#ffc40000</color>
+    <color name="badgeColorEnd">#ff990000</color>
+    <color name="urlBarBackground">#ff000000</color>
+    <color name="urlBarMenuBackground">#ff000000</color>
+    <color name="urlBarText">#ffffffff</color>
+    <color name="splashScreenBackground">#ff000000</color>
+</resources>

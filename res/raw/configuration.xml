@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webWidget>
+	<widgetName>My Web Zone</widgetName>
+	<registeredUrl>
+		<link>http://stat.appsgeyser.com/statistics.php</link>
+	</registeredUrl>  
+		<id>690715</id>
+	<usage>
+		<link>http://stat.appsgeyser.com/statistics.php</link>
+	</usage>
+	<preventFromSleep>false</preventFromSleep>
+	<locationUrl>
+		<link>icc.to/desktopify/android/location.php</link>  
+	</locationUrl>
+	<contentProtection></contentProtection>
+	<acceptCookie>true</acceptCookie>
+	<userInterface>standard</userInterface>
+	<bannerPosition>bottom</bannerPosition>
+	<rateItemVisibility>FALSE</rateItemVisibility>
+	<showRefreshMenuItem>FALSE</showRefreshMenuItem>
+	<showShareMenuItem>true</showShareMenuItem>
+	<showAboutMenuItem>true</showAboutMenuItem>
+	<showExitMenuItem>true</showExitMenuItem>
+	<enableUrlBar>true</enableUrlBar>
+	<enableFullScreenBanner>false</enableFullScreenBanner>
+	<enableOnExitFullScreenBanner>false</enableOnExitFullScreenBanner>
+	<enableRedirection>true</enableRedirection>
+	<downloadAction></downloadAction>
+	<affiliate></affiliate>
+	<publisher></publisher>
+	<enableAboutScreen>true</enableAboutScreen>
+	<splashScreen  image="" background="#000000"/>
+	<urlBarMenuItems>
+	  
+			<button name="forward"/>
+			<button name="request_desktop"/>
+			<button name="add_to_home"/>
+			<button name="home">home</button>
+			
+	</urlBarMenuItems>
+	<fullScreenMode>
+		<content>
+					<id>tab0</id>
+					<name>My Web Zone</name>
+					<link>file:///android_asset/zip_787897/index.html</link>
+					<update>0</update>
+					<width>319</width>
+					<height>458</height>
+					<tabName>My Web Zone</tabName>
+					<tabIcon>tabicon_0</tabIcon>
+					<tabId>787897</tabId>
+					
+					<loadingCurtain>none</loadingCurtain>
+					
+				 </content>
+			 
+	</fullScreenMode> 
+</webWidget>

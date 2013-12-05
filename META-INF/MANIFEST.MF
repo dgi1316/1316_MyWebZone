@@ -1,0 +1,225 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_24 (Sun Microsystems Inc.)
+
+Name: res/raw/insuffient_sdk_version.html
+SHA1-Digest: vXeFaEbP966C/5yOQ+y2RdYKxww=
+
+Name: res/drawable/browser_loading_bar.xml
+SHA1-Digest: YWieohoZGYFtTPeHQVWHZWyK2wY=
+
+Name: res/drawable/contents_background.xml
+SHA1-Digest: ekMl4Sv8s1W+OqONP/GwaTVplys=
+
+Name: res/drawable/button_badge_style.xml
+SHA1-Digest: 2c/IP3Q3ChlnHwpj6GONjCokky0=
+
+Name: assets/zip_787897/jquery.hammer.min.js
+SHA1-Digest: 1/agSKUnZ8Iqa5pE044O2lznxDc=
+
+Name: res/drawable/tabicon_0_active.png
+SHA1-Digest: aVoyE+zZZxhvZ8MV3oOV48UXaig=
+
+Name: res/drawable/ic_menu_add.png
+SHA1-Digest: VF2NNQrOONg8Dl/kyr0J3C6IfF4=
+
+Name: res/menu/customapp_menu.xml
+SHA1-Digest: JfRD2nPcznaAIaEdmcrFo8gctS8=
+
+Name: res/layout/video_loading_progress.xml
+SHA1-Digest: 40IdSljjhqK2aWiZcxdGBZiA9SU=
+
+Name: res/raw/configuration.xml
+SHA1-Digest: lmBke0l0K6NLXFRCAG7QNL1wkCw=
+
+Name: assets/error.html
+SHA1-Digest: b/4jt9zLClmQLjJw8HZodszNLX4=
+
+Name: res/drawable/star_active.png
+SHA1-Digest: oYUm9wbsc3x9zBJTI3cT4V6XtJU=
+
+Name: assets/zip_787897/facebook-gray.png
+SHA1-Digest: /u2rED8DnCOIIcF3fBEG6lF4OiQ=
+
+Name: res/drawable/ic_menu_favorite.png
+SHA1-Digest: taRGbwIydyT2UyoEfApEY5kU3xY=
+
+Name: res/layout/url_bar_icon.xml
+SHA1-Digest: UDhXi2WKcReNBhyNLjkIogk9wdM=
+
+Name: res/drawable/menu_collapse.png
+SHA1-Digest: 6EYDzadKpYV4BON5v+waYk6vWNQ=
+
+Name: res/layout/bottom_banner.xml
+SHA1-Digest: RXPgcwh5bCCAb/G0SRdSIa9MrAU=
+
+Name: res/layout/url_bar_menu_button.xml
+SHA1-Digest: V3Mjfzz/Sa3kGWgbYOpBezMbo7Q=
+
+Name: res/drawable/about_appsgeyser_logo.png
+SHA1-Digest: 3HbhwAXmUcsnkmi6bMSzeLs8fT8=
+
+Name: assets/zip_787897/facebookcolor.js
+SHA1-Digest: CVljY/PUozIMRH8jZJceiIa1jvI=
+
+Name: res/drawable/active_tab_background.xml
+SHA1-Digest: IFEgloxJhR5n+vxK0sYCTtaD5iA=
+
+Name: assets/zip_787897/jquery-2.0.3.min.js
+SHA1-Digest: +/nHfQxOPDSkhZgMHlMWtiEhYMg=
+
+Name: res/drawable/reload_item.png
+SHA1-Digest: Z1m3zLrMAKF/EMdr6bvfVIeV9Ao=
+
+Name: res/layout/web_content.xml
+SHA1-Digest: iAcqC5KuCwvFIishcX0QCbdfT7A=
+
+Name: res/layout/startup_screen.xml
+SHA1-Digest: miRPT3qedb35RxRcXTBgX/vYlfc=
+
+Name: res/layout/connection_error_dialog.xml
+SHA1-Digest: P8KZjyTLD3xg4R6D5k2ppNA4xXc=
+
+Name: res/layout/http_authentication.xml
+SHA1-Digest: 7eJemaWv3S5c2gHbWUQQr3oiiOw=
+
+Name: assets/zip_787897/appbar.add.png
+SHA1-Digest: E2LtOp/WwKld1AJlMtee4vns6QA=
+
+Name: res/layout/about_dialog.xml
+SHA1-Digest: Z5jqNPWiXntacIZgy8T8vvR9uqY=
+
+Name: res/drawable/add_item_active.png
+SHA1-Digest: yGc4RoadrBcD40xxpO+thLMhSMw=
+
+Name: res/raw/falsepositives.txt
+SHA1-Digest: e/A0drpV9QPDErs5b8Akc/E0osk=
+
+Name: res/drawable/ic_menu_refresh.png
+SHA1-Digest: VLEX1uhZQd0g+9EKYxd8J3R4jsg=
+
+Name: res/layout/main.xml
+SHA1-Digest: gElifKOyq5JnRVpdJK0LoQFoqR8=
+
+Name: assets/zip_787897/nonselectable.js
+SHA1-Digest: 5IIq26wYHhPE5yKWCLVa6AZ/Rl8=
+
+Name: res/drawable/deactive_tab_background.xml
+SHA1-Digest: Tvx3oTEjkhU8oe3X3gzVtMQ9x28=
+
+Name: assets/zip_787897/add_favorites_to_homepage.js
+SHA1-Digest: hfgzQSiwWWpVJZY5gPUMa41YXSc=
+
+Name: res/drawable/button_style.xml
+SHA1-Digest: CA+0IKwgmpo1XxKSVhnk2/hXr1c=
+
+Name: res/raw/reportabuse.txt
+SHA1-Digest: MtzubMJHoGWGlzO9Jn1/T1JqWgk=
+
+Name: res/drawable/about_background.xml
+SHA1-Digest: dM9ogB9cQDBSvnPWwnRFeOXu1zI=
+
+Name: res/drawable/checkbox_states.xml
+SHA1-Digest: uYl6Z4ctYdtVwhHbjjincGpBRmQ=
+
+Name: res/layout/progress_dialog.xml
+SHA1-Digest: npWRtjn5kzHN73lzUKeEluosEkQ=
+
+Name: res/menu/webapp_menu.xml
+SHA1-Digest: mZO7cgHFP7CWJ1TQA+mJ3PopLTg=
+
+Name: res/layout/navigation_bar.xml
+SHA1-Digest: BiOw7+/R/f8SlayRop7RDRrAvqE=
+
+Name: assets/zip_787897/readability.js
+SHA1-Digest: 2sXUUb5O3tK5SZQCO+EKhfu+oWc=
+
+Name: assets/zip_787897/appbar.close.png
+SHA1-Digest: VuIGsGradz3bgGAy+t1hQjr+380=
+
+Name: res/drawable/add_item.png
+SHA1-Digest: WU3Aq7IGTj2ChFEbMgddKvhrMrk=
+
+Name: assets/zip_787897/delete-icon.png
+SHA1-Digest: JHdW9kI5BrJqGwbtxDly+yxn8Ao=
+
+Name: res/layout/user_agent_dialog.xml
+SHA1-Digest: VCP8FQf8mMeqKaorrQBg1yF+q/I=
+
+Name: res/layout/tab_tag.xml
+SHA1-Digest: Pkg9qpY0u7VTkfPmzff04Ws6gbY=
+
+Name: assets/zip_787897/appsgeyser-xmlhttp.js
+SHA1-Digest: cPEukVLXf8YZpSpJq2J9iLObsis=
+
+Name: res/drawable/pin_icon.png
+SHA1-Digest: AOLEHi4kC9ZDwBEr9Om2ns3tHh0=
+
+Name: resources.arsc
+SHA1-Digest: 65OUHs064soCj8H2QNln+wNHZ64=
+
+Name: res/raw/index.html
+SHA1-Digest: qlM38wRgKQ8TL2WX11UhFjlLhiY=
+
+Name: assets/run_custom_script.js
+SHA1-Digest: fLQTw9pn/Zj6Bno1D8ZoacM2qjM=
+
+Name: res/drawable/cross_item.png
+SHA1-Digest: 4h8MKnac7xLO4HBlMkIOfwZH/TQ=
+
+Name: res/drawable/checkbox.png
+SHA1-Digest: E+/2R/Oo9L4dA1vKTKHataHHAbs=
+
+Name: AndroidManifest.xml
+SHA1-Digest: MXVmtOwRAWHUDS1yV13CEigTNBU=
+
+Name: res/raw/flashplayer_not_exist.html
+SHA1-Digest: ADix1/Ml0rXtyjDNrOOSI2tvx8Y=
+
+Name: res/layout/url_bar_menu_checkbox.xml
+SHA1-Digest: p353lntVb6POpUq0cX6u/sotWHQ=
+
+Name: assets/zip_787897/facebook-widget.js
+SHA1-Digest: Ru0UtTkglMsfTA6U9MmVrUhzR0I=
+
+Name: res/drawable/checkbox_checked.png
+SHA1-Digest: IICa4yiBosgwaqLBA+U41iDm9LE=
+
+Name: res/drawable/star.png
+SHA1-Digest: JTFh9k0jOCKLs/LnpEw6R2oWKHU=
+
+Name: assets/zip_787897/bookmarks.html
+SHA1-Digest: ZPZM06zLoxnYhw8fCP9kAaN8gtI=
+
+Name: res/layout/no_content_message.xml
+SHA1-Digest: nUmeBth4c+PeRjliSmWdNJBNywM=
+
+Name: assets/zip_787897/index.html
+SHA1-Digest: c/AZvHKNLSjWcrpsD4tyNRKLsuQ=
+
+Name: res/layout/history_autocomplete_layout.xml
+SHA1-Digest: esxGlcYFQn6o8nMKu18satusb4Y=
+
+Name: res/layout/message_viewer.xml
+SHA1-Digest: IGmsfrMlS5zt8YH/+Zb7cg0yhQo=
+
+Name: res/drawable/menu_expand.png
+SHA1-Digest: Mo5l1wS/m8X8xNc7BHzdfhLte7Q=
+
+Name: res/layout/tabs_panel.xml
+SHA1-Digest: ge05Ab8uPZQipuv3qzJqvDZhP5g=
+
+Name: classes.dex
+SHA1-Digest: Krxi4C7GJ3YnmZDDBh07n3wy7L8=
+
+Name: assets/zip_787897/facebook.png
+SHA1-Digest: vVV6AMhCwVmBUpAPDQYHUiKHRek=
+
+Name: res/drawable/icon.png
+SHA1-Digest: iDv2K8P+xq2c4J12vYNGcGEShUI=
+
+Name: assets/zip_787897/uri.js
+SHA1-Digest: vCEMW6UsQiZHHTMUciyxul4+IMo=
+
+Name: res/drawable/tabicon_0.png
+SHA1-Digest: aNMrWAqEEkiDPnMxf8BJZtO8vrE=
+

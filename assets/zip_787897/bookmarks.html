@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>Bookmarks</title>
+
+	<script src="jquery-2.0.3.min.js" type="text/javascript"></script>
+	<script src="jquery.hammer.min.js"></script>
+	<script src="nonselectable.js"></script>
+	<script>
+		var bookmarks = {
+			default:[
+				{name:"Booking", url:"http://www.booking.com/"},
+				{name:"Skyscanner", url:"http://www.skyscanner.ru/"},
+				{name:'Wikipedia', url:'http://www.wikipedia.org/'},
+				{name:'Translator', url:'http://translate.google.com/'},
+				{name:'Instagram', url:'http://instagram.com/'},
+				{name:'Amazon', url:'http://www.amazon.com/'},
+				{name:'Blogspot', url:'http://www.blogger.com/'},
+				{name:'Ebay', url:'http://www.ebay.com/'}
+			]
+		};
+
+		function addPages() {
+			if (window.AppsgeyserJSInterface) {
+				for (var i in bookmarks.default) {
+					var page = bookmarks.default[i];
+					AppsgeyserJSInterface.addBookmark(page.name, page.url,'default');
+				}
+			}
+			getPages();
+		}
+
+		function getPages() {
+			if (window.AppsgeyserJSInterface) {
+				var itemsString = AppsgeyserJSInterface.getBookmarks('default');
+				var items;
+				if (itemsString) {
+					try {
+						items = JSON.parse(itemsString);
+					} catch (e) {
+					}
+				}
+				if (items && items.length > 0) {
+					bookmarks.default = items;
+				} else {
+					addPages();
+				}
+			}
+		}
+
+		var longTapTimer;
+		function showPages() {
+			$('.contents').empty();
+			var $template = $('.template .element');
+			var $contents = $('.contents');
+			for (var i in bookmarks.default) {
+				$template.find('.url').text(bookmarks.default[i].url);
+				$template.find('.title').text(bookmarks.default[i].name);
+				$contents.append($template.clone());
+			}
+			$('.noselect').disableSelection();
+		}
+
+		$(document).ready(function () {
+			getPages();
+			showPages();
+
+			var hammertime = $("body").hammer();
+
+			hammertime.on('tap', '.contents .element', function () {
+				window.location = $(this).find('.url').text();
+			});
+
+			hammertime.on('tap', '.remove', function (e) {
+				e.preventDefault();
+				e.stopPropagation();
+				var $element = $(this).parent();
+				var index = $('.contents').children().index($element);
+				if (window.AppsgeyserJSInterface) {
+					AppsgeyserJSInterface.removeBookmark(bookmarks.default[index].id,'default');
+				}
+				bookmarks.default.splice(index, 1);
+				$element.remove();
+			});
+
+			hammertime.on('tap','.add-bookmark',function(){
+				$('.dialog').show();
+			});
+
+			hammertime.on('tap','.cancel',function(){
+				$('.dialog').hide();
+				$('.title-input').val('');
+				$('.url-input').val('');
+			});
+
+			hammertime.on('tap','.add',function(){
+				$('.dialog').hide();
+				var title = $('.title-input').val();
+				var url = $('.url-input').val();
+				bookmarks.default.push({name:title,url:url});
+				if (window.AppsgeyserJSInterface) {
+					AppsgeyserJSInterface.addBookmark(title,url,'default');
+				}
+				showPages();
+				$('.title-input').val('');
+				$('.url-input').val('');
+			});
+		});
+	</script>
+	<style>
+		body {
+			color: white;
+			font-family: Segoe WP, Segoe UI, Verdana, Helvetica, Sans-Serif, sans-serif;
+			font-size: 20px;
+			background-color: #000;
+			-webkit-user-select: none;
+		}
+
+		h1 {
+			margin: 7px;
+			padding: 0;
+		}
+
+		.element {
+			margin: 5px;
+			height: 60px;
+			padding: 4px;
+			padding-left: 10px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			position: relative;
+		}
+
+		.remove {
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			height: 49px;
+			padding-top: 20px;
+			width: 40px;
+			padding-left: 20px;
+		}
+
+		.remove img{
+			height: 32px;
+			border-radius: 50%;
+			border: 2px solid white;
+			margin-top: -5px;
+		}
+
+		.add-bookmark {
+			height: 32px;
+			line-height: 1.5;
+		}
+
+		.add-bookmark img {
+			display: inline;
+			height: 26px;
+			vertical-align: middle;
+			border-radius: 50%;
+			border: 2px solid white;
+			margin-top: -5px;
+		}
+
+		.title {
+			font-weight: bold;
+		}
+
+		.url {
+			color: #e25c00;
+			padding-left: 15px;
+		}
+
+		.title, .url {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 100%;
+		}
+
+		.template {
+			display: none;
+		}
+
+		.dialog {
+			box-sizing: border-box;
+			position: fixed;
+			top: 20%;
+			left: 5%;
+			width: 90%;
+			background: #000;
+			border: 2px solid white;
+			padding: 20px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: none;
+		}
+
+		.dialog > * {
+			box-sizing: content-box;
+			margin: 5px;
+		}
+
+		.dialog input[type=text] {
+			width:100%;
+			font-size: 20px;
+			background: #fff;
+			border: none;
+		}
+
+		.button {
+			border: 2px solid white;
+			padding: 5px;
+			margin-top: 15px;
+			margin-right: 10px;
+			font-size: 20px;
+			background: #000;
+			color: white;
+		}
+
+		.add {
+			background: #e25c00;
+		}
+
+		.button:active {
+			background: #fff;
+			color: black;
+		}
+
+	</style>
+</head>
+<body bgcolor="#000000" class="noselect">
+<h1>Bookmarks</h1>
+
+<div class="template">
+	<div class="element">
+		<div class="title">Title</div>
+		<div class="url">http://www.url.com</div>
+		<div class="remove"><img  src="appbar.close.png"></div>
+	</div>
+</div>
+<div class="contents">
+
+</div>
+<div class="element add-bookmark">
+	<img src="appbar.add.png"> Add bookmark
+</div>
+
+<div class="dialog">
+	<h1>Add your bookmark</h1>
+	<div>Bookmark title:</div>
+	<input type="text" class="title-input">
+	<div>Bookmark url:</div>
+	<input type="text" class="url-input">
+	<div>
+		<input type="button" class="add button" value="Add bookmark">
+		<input type="button" class="cancel button" value="Cancel">
+	</div>
+</div>
+
+</body>
+</html>

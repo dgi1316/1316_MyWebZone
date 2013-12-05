@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Test!</string>
+    <string name="menuExitTitle">Exit</string>
+    <string name="menuRefreshTitle">Refresh</string>
+    <string name="menuAboutTitle">About</string>
+    <string name="menuShareTitle">Share</string>
+    <string name="menuRateTitle">Rate</string>
+    <string name="progressBarMessage">Loading content…</string>
+    <string name="noInternetConnectionMessage">Internet connection is unavailable</string>
+    <string name="homeSite">http://www.appsgeyser.com/</string>
+    <string name="getAppModeUrl">http://ads.appsgeyser.com/checkstatus.php</string>
+    <string name="fullScreenBannerUrl">http://splash.appsgeyser.com/</string>
+    <string name="aboutLink">http://www.appsgeyser.com/ads/landing.php</string>
+    <string name="getWidgetUrl">http://www.appsgeyser.com/</string>
+    <string name="adsDomainUrl">http://ads.appsgeyser.com/</string>
+    <string name="pushDomainUrl">http://push.appsgeyser.com/</string>
+    <string name="pullDomainUrl1">http://updapp.com/</string>
+    <string name="pullDomainUrl2">http://iccto.com/</string>
+    <string name="pullDomainUrl3">http://iccto.net/</string>
+    <string name="statDomainUrl">http://stat.appsgeyser.com/</string>
+    <string name="shareSiteSubject">Enjoy this site</string>
+    <string name="shareContentSubject">Get this cool Android App</string>
+    <string name="loadingVideo">Loading video</string>
+    <string name="pausedContentUrl">http://www.appsgeyser.com/paused/</string>
+    <string name="applicationID">softomate@softomate.com</string>
+    <string name="aboutDescriptionWithPubName">App APP_VERSION by PUB_NAME &lt;br /> Powered by &lt;a href=APPSGEYSER_URL>AppsGeyser.com&lt;a></string>
+    <string name="aboutDescriptionWithoutPubName">This App APP_VERSION is powered by &lt;a href=APPSGEYSER_URL>AppsGeyser.com&lt;a></string>
+    <string name="aboutFlagText">&lt;b>&lt;a href=http://www.appsgeyser.com/report/?app=APP_ID>Flag this App&lt;/a>&lt;/b>: Tell us if this app has objectionable content.</string>
+    <string name="noContentInfoMessage">"Something goes wrong :(
+No content available"</string>
+    <string name="loadingPaneTitle">Loading…</string>
+    <string name="startupScreenTitle">Loading…</string>
+    <string name="facebookButtonTitle">Facebook</string>
+    <string name="youtubeButtonTitle">YouTube</string>
+    <string name="gmailButtonTitle">GMail</string>
+    <string name="pinToHomeScreenButtonTitle">Pin to desktop</string>
+    <string name="userAgentCaption">Set User Agent</string>
+    <string name="defaultUserAgent">Default User Agent</string>
+    <string name="desktopUserAgent">Desktop User Agent</string>
+    <string name="setNewUserAgent">Save and Apply</string>
+    <string name="urlboxHint">Enter URL</string>
+    <string name="backButtonTitle">Back</string>
+    <string name="forwardButtonTitle">Forward</string>
+    <string name="refreshgButtonTitle">Refresh</string>
+    <string name="homeButtonTitle">Home</string>
+    <string name="dotsButtonTitle">˙˙˙</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="build">Build</string>
+    <string name="platformVersion">0.128</string>
+    <string name="sign_in_to">Sign in to …</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+    <string name="requestDesktopVersion">Request desktop page</string>
+    <string name="AddToStartPage">Add this to start page</string>
+    <string name="new_start_page_item_added">New start page item added</string>
+    <string name="dialog_select_action">Select action</string>
+    <string name="open_file">Open file</string>
+    <string name="save_file">Save file</string>
+    <string name="cancel">Cancel</string>
+    <string name="errorHtmlPath">file:///android_asset/error.html</string>
+    <string name="chromeUserAgent">Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36</string>
+</resources>
